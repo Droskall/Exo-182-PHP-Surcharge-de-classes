@@ -20,13 +20,16 @@ $dragon->setNom("Dragonne");
 $princesse = new Princesse();
 $princesse->setNom("Fiona");
 echo $princesse->x;
+echo "<br>";
 echo $princesse->y;
+echo "<br>";
 
 
 // Creation d'une instance de la classe sorcier
 $sorcier = new Sorcier();
 $sorcier->setNom("Maraine la Bonne Fée");
 echo $sorcier->y;
+echo "<br>";
 echo $sorcier->x;
 
 
